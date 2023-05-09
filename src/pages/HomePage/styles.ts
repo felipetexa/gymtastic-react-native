@@ -4,26 +4,30 @@ export const HomePageContainer = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
-  padding: 16px;
+  gap: 20px;
+  padding: 10px 50px;
 `;
 
 export const WelcomeText = styled.Text`
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
-  text-align: center;
-  margin-bottom: 16px;
-`;
-
-export const InfoText = styled.Text`
-  font-size: 18px;
   text-align: center;
   margin-bottom: 32px;
 `;
 
+export const InfoText = styled.Text`
+  font-size: 18px;
+  color: grey;
+  text-align: center;
+  line-height: 25px;
+  margin-bottom: 32px;
+`;
+
 export const LoginButton = styled.TouchableOpacity`
-  padding: 12px 24px;
-  background-color: #007aff;
-  border-radius: 4px;
+margin-top: 20px;
+  padding: 20px 50px;
+  background-color: #EC6633;
+  border-radius: 50px;
 `;
 
 export const LoginButtonText = styled.Text`
