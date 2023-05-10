@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import Login from './src/pages/Login'
 import LandPage from './src/pages/LandPage'
+import SelectWorkout from './src/pages/SelectWorkout'
 
 const Stack = createNativeStackNavigator()
 
@@ -15,6 +16,7 @@ export default function App() {
           <Stack.Screen name="Home" component={HomePage} />
           <Stack.Screen name="Login" component={Login} />
           <Stack.Screen name="LandPage" component={LandPage} />
+          <Stack.Screen name="SelectWorkout" component={SelectWorkout} />
         </Stack.Navigator>
       </NavigationContainer>
     </View>

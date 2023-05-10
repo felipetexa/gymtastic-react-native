@@ -11,7 +11,7 @@ const LandPage: React.FC<LandPageProps> = ({navigation, route}) => {
     <View style={styles.container}>
     <Text>Hello, {route.params.name}!</Text>
     <Text>What do you want to do today?</Text>
-    <Button title="Start working out" />
+    <Button title="Start working out" onPress={() => navigation.navigate('SelectWorkout')}/>
     <Button title="Manage your workouts" />
     </View>
   )
